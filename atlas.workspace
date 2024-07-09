@@ -1,0 +1,426 @@
+{
+  "deps": "",
+  "overrides": "",
+  "plugins": "",
+  "resolver": "SemVer",
+  "graph": {
+    "nodes": [
+      {
+        "pkg": {
+          "projectName": "EmptyAtlas",
+          "u": "file:///Users/regis.caillaud/Workspace/Test/EmptyAtlas"
+        },
+        "versions": [
+          {
+            "version": "#head",
+            "commit": "",
+            "req": 2,
+            "v": 0
+          }
+        ],
+        "active": true,
+        "isRoot": true,
+        "isTopLevel": true,
+        "status": 0,
+        "activeVersion": 0,
+        "ondisk": "/Users/regis.caillaud/Workspace/Test/EmptyAtlas"
+      },
+      {
+        "pkg": {
+          "projectName": "nimpy",
+          "u": "https://github.com/yglukhov/nimpy"
+        },
+        "versions": [
+          {
+            "version": "#head",
+            "commit": "",
+            "req": 3,
+            "v": 1
+          },
+          {
+            "version": "0.1.0",
+            "commit": "31e5d4105563f3e85300d5cb2aa101a91358d292",
+            "req": 3,
+            "v": 2
+          },
+          {
+            "version": "0.1.0",
+            "commit": "bf6d27a146612918b859959935adca02c1345603",
+            "req": 3,
+            "v": 3
+          },
+          {
+            "version": "0.1.0",
+            "commit": "d60510fc87b09866aab5d5a173de67320dc3774e",
+            "req": 3,
+            "v": 4
+          },
+          {
+            "version": "0.1.0",
+            "commit": "35c7b487f5b856b72f7495d1031a17bf9fa64df9",
+            "req": 3,
+            "v": 5
+          },
+          {
+            "version": "0.1.0",
+            "commit": "c9e47cff1d5942097bcf6576b0a5341ffa8b140d",
+            "req": 3,
+            "v": 6
+          },
+          {
+            "version": "0.1.0",
+            "commit": "f5d288042109dec723cedb8e3ff5cab510b7eecc",
+            "req": 3,
+            "v": 7
+          },
+          {
+            "version": "0.1.0",
+            "commit": "f18f22d9f8361c83426eba7b829c3932f2448456",
+            "req": 3,
+            "v": 8
+          },
+          {
+            "version": "0.1.0",
+            "commit": "84277587cac91116f525e7ab215ce047aff792eb",
+            "req": 3,
+            "v": 9
+          },
+          {
+            "version": "0.1.0",
+            "commit": "a3f7bfe239fca7890f4a542cf3c0ee70c88ce06b",
+            "req": 3,
+            "v": 10
+          },
+          {
+            "version": "0.1.0",
+            "commit": "bb4d1279a8608003309e5583ae8865ae90990e8a",
+            "req": 3,
+            "v": 11
+          },
+          {
+            "version": "0.1.0",
+            "commit": "4840d1e438985af759ddf0923e7a9250fd8ea0da",
+            "req": 3,
+            "v": 12
+          },
+          {
+            "version": "0.1.0",
+            "commit": "91da55d7ea9f9bc2ee4aa0ecc8b703aed91d34b5",
+            "req": 3,
+            "v": 13
+          },
+          {
+            "version": "0.1.0",
+            "commit": "a0e0e948b615f7b76a6afcd22127bb715ff9d26e",
+            "req": 3,
+            "v": 14
+          },
+          {
+            "version": "0.1.0",
+            "commit": "42441547ed3d0d31c6b60170222b369de7ffa00a",
+            "req": 3,
+            "v": 15
+          },
+          {
+            "version": "0.1.0",
+            "commit": "59180cda5e5af4eb47a334d68b636be8aaf23738",
+            "req": 3,
+            "v": 16
+          }
+        ],
+        "active": true,
+        "isRoot": true,
+        "isTopLevel": false,
+        "status": 0,
+        "activeVersion": 15,
+        "ondisk": "/Users/regis.caillaud/Workspace/Test/EmptyAtlas/nimpy"
+      },
+      {
+        "pkg": {
+          "projectName": "nim-taskpools",
+          "u": "https://github.com/status-im/nim-taskpools"
+        },
+        "versions": [
+          {
+            "version": "0.0.4",
+            "commit": "b3673c7a7a959ccacb393bd9b47e997bbd177f5a",
+            "req": 4,
+            "v": 17
+          },
+          {
+            "version": "0.0.3",
+            "commit": "7834ee35a54f8fb128d6699d92b882783afc2708",
+            "req": 4,
+            "v": 18
+          },
+          {
+            "version": "0.0.2",
+            "commit": "12752b9e5e6502a75b2c8d8da7803ce043c4ba1c",
+            "req": 4,
+            "v": 19
+          },
+          {
+            "version": "0.0.1",
+            "commit": "23e396bf30eeb9bc15f0e62ee77cb58515240309",
+            "req": 4,
+            "v": 20
+          },
+          {
+            "version": "0.0.1",
+            "commit": "a1e350094bf46a5164d0da8806e1b3237bc4ba06",
+            "req": 4,
+            "v": 21
+          },
+          {
+            "version": "0.0.1",
+            "commit": "39b90fa4a31edeafa035cedfe938767b9ff23859",
+            "req": 4,
+            "v": 22
+          }
+        ],
+        "active": true,
+        "isRoot": true,
+        "isTopLevel": false,
+        "status": 0,
+        "activeVersion": 5,
+        "ondisk": "/Users/regis.caillaud/Workspace/Test/EmptyAtlas/nim-taskpools"
+      },
+      {
+        "pkg": {
+          "projectName": "nim-zmq",
+          "u": "https://github.com/nim-lang/nim-zmq"
+        },
+        "versions": [
+          {
+            "version": "1.5.2",
+            "commit": "6eb2f6e4c7b83fd40991a169408bccadf3af4cfc",
+            "req": 5,
+            "v": 23
+          },
+          {
+            "version": "1.5.1",
+            "commit": "d9483701f34697281cfc13a7c6bbe06bb90cb5da",
+            "req": 5,
+            "v": 24
+          },
+          {
+            "version": "1.5.0",
+            "commit": "2c5e7a52dfabad5de64b121f47a28bb6eed74b5c",
+            "req": 6,
+            "v": 25
+          },
+          {
+            "version": "1.4.0",
+            "commit": "06380aa3bdbf2933990b131a46b1865837e89d49",
+            "req": 7,
+            "v": 26
+          },
+          {
+            "version": "1.3.1",
+            "commit": "c9d9814c1060daffcfbff3dbd9dd9c503af99c86",
+            "req": 7,
+            "v": 27
+          },
+          {
+            "version": "1.3.0",
+            "commit": "a537431efee37ab569ab9c7083ca2fcf74141518",
+            "req": 7,
+            "v": 28
+          },
+          {
+            "version": "1.2.1",
+            "commit": "d9c13f7a598915ccaaba23d719afbcfcc5ec7ab7",
+            "req": 7,
+            "v": 29
+          },
+          {
+            "version": "1.2.0",
+            "commit": "fd98938cba827e3e199f4e6b687e0d634d1d57db",
+            "req": 7,
+            "v": 30
+          },
+          {
+            "version": "1.0.1",
+            "commit": "a04b4f8630019e3b6149f3654a187c9900a32305",
+            "req": 7,
+            "v": 31
+          },
+          {
+            "version": "0.3.4",
+            "commit": "50f226e40e1b7284b6b2f51179155ca20e893040",
+            "req": 7,
+            "v": 32
+          },
+          {
+            "version": "0.3.1",
+            "commit": "19b8e0a6356bbec1c42b4e5bdc4b3f50269d62f3",
+            "req": 7,
+            "v": 33
+          },
+          {
+            "version": "0.2.2",
+            "commit": "3544aa0c8f759b5b1a9a4db43b5d69e207b179b0",
+            "req": 8,
+            "v": 34
+          },
+          {
+            "version": "0.2.1",
+            "commit": "4edfd529528ea9075019a113e5339426b88b3c91",
+            "req": 8,
+            "v": 35
+          }
+        ],
+        "active": true,
+        "isRoot": true,
+        "isTopLevel": false,
+        "status": 0,
+        "activeVersion": 12,
+        "ondisk": "/Users/regis.caillaud/Workspace/Test/EmptyAtlas/nim-zmq"
+      }
+    ],
+    "reqs": [
+      {
+        "deps": [],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "",
+        "nimVersion": "",
+        "v": -1,
+        "status": 0,
+        "err": ""
+      },
+      {
+        "deps": [],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "",
+        "nimVersion": "",
+        "v": -1,
+        "status": 2,
+        "err": ""
+      },
+      {
+        "deps": [
+          [
+            {
+              "projectName": "nimpy",
+              "u": "https://github.com/yglukhov/nimpy"
+            },
+            {
+              "a": {
+                "r": 5,
+                "v": "#head"
+              },
+              "b": {
+                "r": 0,
+                "v": ""
+              },
+              "isInterval": false
+            }
+          ],
+          [
+            {
+              "projectName": "nim-taskpools",
+              "u": "https://github.com/status-im/nim-taskpools"
+            },
+            {
+              "a": {
+                "r": 5,
+                "v": "#head"
+              },
+              "b": {
+                "r": 0,
+                "v": ""
+              },
+              "isInterval": false
+            }
+          ],
+          [
+            {
+              "projectName": "nim-zmq",
+              "u": "https://github.com/nim-lang/nim-zmq"
+            },
+            {
+              "a": {
+                "r": 5,
+                "v": "#head"
+              },
+              "b": {
+                "r": 0,
+                "v": ""
+              },
+              "isInterval": false
+            }
+          ]
+        ],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "",
+        "nimVersion": "",
+        "v": 36,
+        "status": 0,
+        "err": ""
+      },
+      {
+        "deps": [],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "0.1.0",
+        "nimVersion": "0.17.0",
+        "v": 37,
+        "status": 0,
+        "err": ""
+      },
+      {
+        "deps": [],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "0.0.4",
+        "nimVersion": "1.2.12",
+        "v": 38,
+        "status": 0,
+        "err": ""
+      },
+      {
+        "deps": [],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "1.5.2",
+        "nimVersion": "2.0.0",
+        "v": 39,
+        "status": 0,
+        "err": ""
+      },
+      {
+        "deps": [],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "1.5.0",
+        "nimVersion": "1.4.0",
+        "v": 40,
+        "status": 0,
+        "err": ""
+      },
+      {
+        "deps": [],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "1.4.0",
+        "nimVersion": "0.18.0",
+        "v": 41,
+        "status": 0,
+        "err": ""
+      },
+      {
+        "deps": [],
+        "hasInstallHooks": false,
+        "srcDir": "",
+        "version": "0.2.2",
+        "nimVersion": "",
+        "v": 42,
+        "status": 0,
+        "err": ""
+      }
+    ]
+  }
+}

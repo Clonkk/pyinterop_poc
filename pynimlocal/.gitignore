@@ -1,0 +1,5 @@
+bin/
+*.so
+nim.cfg
+__pycache__/
+.python-version

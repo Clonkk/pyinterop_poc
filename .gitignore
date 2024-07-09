@@ -1,0 +1,6 @@
+packages/
+nim-zmq/
+nim-taskpools/
+nimpy/
+csources_v2/
+nim-2.0.8/

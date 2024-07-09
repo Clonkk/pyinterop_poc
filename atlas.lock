@@ -1,0 +1,46 @@
+{
+  "items": {
+    "nim-zmq": {
+      "dir": "$deps/nim-zmq",
+      "url": "https://github.com/nim-lang/nim-zmq",
+      "commit": "4edfd529528ea9075019a113e5339426b88b3c91",
+      "version": ""
+    },
+    "nim-taskpools": {
+      "dir": "$deps/nim-taskpools",
+      "url": "https://github.com/status-im/nim-taskpools",
+      "commit": "39b90fa4a31edeafa035cedfe938767b9ff23859",
+      "version": ""
+    },
+    "nimpy": {
+      "dir": "$deps/nimpy",
+      "url": "https://github.com/yglukhov/nimpy",
+      "commit": "0645af5e236e52942c589b2829aa93a054cd84d1",
+      "version": ""
+    },
+    "EmptyAtlas": {
+      "dir": "$deps/EmptyAtlas",
+      "url": "file:///Users/regis.caillaud/Workspace/Test/EmptyAtlas",
+      "commit": "fatal : votre branche actuelle 'master' ne contient encore aucun commit",
+      "version": ""
+    }
+  },
+  "nimcfg": [],
+  "nimbleFile": {
+    "filename": "EmptyAtlas.nimble",
+    "content": [
+      "requires \"https://github.com/yglukhov/nimpy\"",
+      "",
+      "requires \"https://github.com/status-im/nim-taskpools\"",
+      "",
+      "requires \"https://github.com/nim-lang/nim-zmq\"",
+      "",
+      ""
+    ]
+  },
+  "hostOS": "macosx",
+  "hostCPU": "arm64",
+  "nimVersion": "2.0.8",
+  "gccVersion": "14.1.0",
+  "clangVersion": ""
+}
