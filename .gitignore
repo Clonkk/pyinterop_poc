@@ -1,4 +1,5 @@
 packages/
+nim-devel/
 nim-zmq/
 nim-taskpools/
 nimpy/

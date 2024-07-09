@@ -1,1 +1,2 @@
-source nim-2.0.8/activate.sh
+# source nim-2.0.8/activate.sh
+source nim-devel/activate.sh

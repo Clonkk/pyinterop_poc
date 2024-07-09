@@ -11,7 +11,7 @@ var results : seq[FlowVar[int]]
 proc connectImpl(port, topic: string) : int =
   var con = connect(fmt"tcp://localhost:{port}", SUB)
   sleep(1000)
-  con.setsockopt(SUBSCRIBE, topic)
+  discard con.setsockopt(SUBSCRIBE, topic)
   echo "fromNim: SUBSCRIBE OK"
   var total_value = 0
   for i in 0..<5:
