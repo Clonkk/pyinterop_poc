@@ -8,6 +8,7 @@ Nim : nim-taskpools (audited thread pool), nim-zmq (high-level bindings of libzm
 
 ```
 brew install python3.11
+brew install gcc
 brew install zmq
 python3.11 -m pip install zmq
 brew install nim

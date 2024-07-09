@@ -13,14 +13,15 @@ def connectImpl(port: str, topicfilter: str) -> int:
     socket.connect ("tcp://localhost:%s" % port)
     socket.setsockopt_string(zmq.SUBSCRIBE, topicfilter)
     # Process 5 updates
-    total_value = 0
+    total_value = int(0)
     for i in range (5):
         string = socket.recv_string()
         topic, messagedata = string.split()
-        total_value += int(messagedata)
-        print(topic, messagedata)
+        payload = int(messagedata)
+        total_value += payload
+        print(topic, payload)
 
-    print("Total messagedata value for topic '%s' was %dF" % (topicfilter, total_value))
+    print("Total payload value for topic '%s' was %i" % (topicfilter, total_value))
     global_results.append(total_value)
 
 def connect(port: str, topicfilter: str) -> int:

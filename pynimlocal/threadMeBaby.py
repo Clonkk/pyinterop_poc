@@ -15,7 +15,7 @@ import zmq
 import random
 import time
 
-MAX_MSG_SENT = 100 
+MAX_MSG_SENT = 100
 
 def bind(port):
     # Send a 100 message on a messaging queue
@@ -27,7 +27,7 @@ def bind(port):
     while msgsent < MAX_MSG_SENT:
         topic = random.randrange(9999,10005)
         messagedata = random.randrange(1,215) - 80
-        print("%d %d" % (topic, messagedata))
+        # print("%d %d" % (topic, messagedata))
         socket.send_string("%d %d" % (topic, messagedata))
         msgsent = msgsent + 1
         time.sleep(0.1)
