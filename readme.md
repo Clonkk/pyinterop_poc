@@ -6,6 +6,7 @@ Nim : nim-taskpools (audited thread pool), nim-zmq (high-level bindings of libzm
 
 ## Installation
 
+On OSX:
 ```
 brew install python3.11
 brew install gcc
