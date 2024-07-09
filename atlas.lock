@@ -58,7 +58,7 @@
     "scinim": {
       "dir": "scinim",
       "url": "https://github.com/SciNim/scinim",
-      "commit": "95e301cab5679f5ba78f06c538d25f46bf85e127"
+      "commit": "daf999ac9921e3aeb4a1879db8879c91264348c9"
     },
     "nimcl": {
       "dir": "nimcl",
