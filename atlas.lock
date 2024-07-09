@@ -1,54 +1,99 @@
 {
   "items": {
-    "nim-zmq": {
-      "dir": "$deps/nim-zmq",
-      "url": "https://github.com/nim-lang/nim-zmq",
-      "commit": "6eb2f6e4c7b83fd40991a169408bccadf3af4cfc",
-      "version": ""
+    "Arraymancer": {
+      "dir": "Arraymancer",
+      "url": "https://github.com/mratsim/Arraymancer",
+      "commit": "c95e1c78048a02eda9ac8ad7bb2dd189dbdc1902"
     },
-    "nim-taskpools": {
-      "dir": "$deps/nim-taskpools",
-      "url": "https://github.com/status-im/nim-taskpools",
-      "commit": "d4c43137c0590cb47f893a66ca8cb027fa6c217e",
-      "version": ""
+    "nim-clblast": {
+      "dir": "nim-clblast",
+      "url": "https://github.com/numforge/nim-clblast",
+      "commit": "cdadb10dd85b95c9e7248f0b9661ad1e7616efe6"
+    },
+    "nimblas": {
+      "dir": "nimblas",
+      "url": "https://github.com/andreaferretti/nimblas",
+      "commit": "93ffdd705496990983eefa0507d52f6a6c533ca7"
+    },
+    "nim-zmq": {
+      "dir": "nim-zmq",
+      "url": "https://github.com/nim-lang/nim-zmq",
+      "commit": "6eb2f6e4c7b83fd40991a169408bccadf3af4cfc"
+    },
+    "untar": {
+      "dir": "untar",
+      "url": "https://github.com/dom96/untar",
+      "commit": "b49f6ac94974fe11cb3d396a8a9c533824a497a7"
+    },
+    "nimcuda": {
+      "dir": "nimcuda",
+      "url": "https://github.com/andreaferretti/nimcuda",
+      "commit": "5c3cf233726549b63266f6dba14788f30e0405b6"
     },
     "nimpy": {
-      "dir": "$deps/nimpy",
+      "dir": "nimpy",
       "url": "https://github.com/yglukhov/nimpy",
-      "commit": "0645af5e236e52942c589b2829aa93a054cd84d1",
-      "version": ""
+      "commit": "0645af5e236e52942c589b2829aa93a054cd84d1"
     },
-    "EmptyAtlas": {
-      "dir": "$deps/EmptyAtlas",
-      "url": "file:///Users/regis.caillaud/Workspace/Test/EmptyAtlas",
-      "commit": "0d00f258b7c6bb25ff5e2da5b3ffe7d0ead4538f",
-      "version": ""
+    "polynumeric": {
+      "dir": "polynumeric",
+      "url": "https://github.com/SciNim/polynumeric",
+      "commit": "1a16ddc89087c2d6b6493847226fee4984f86d7b"
+    },
+    "nimlapack": {
+      "dir": "nimlapack",
+      "url": "https://github.com/andreaferretti/nimlapack",
+      "commit": "231430b3d2156f5cbe8fe16bb8967cd9a93964c5"
+    },
+    "opencl": {
+      "dir": "opencl",
+      "url": "https://github.com/nim-lang/opencl",
+      "commit": "bad8d9c13821b21fa95a1dc78d13ecfa51b93944"
+    },
+    "zip": {
+      "dir": "zip",
+      "url": "https://github.com/nim-lang/zip",
+      "commit": "bdc5783fefc1afb8eb622ff13d464a832ce1d507"
+    },
+    "scinim": {
+      "dir": "scinim",
+      "url": "https://github.com/SciNim/scinim",
+      "commit": "95e301cab5679f5ba78f06c538d25f46bf85e127"
+    },
+    "nimcl": {
+      "dir": "nimcl",
+      "url": "https://github.com/andreaferretti/nimcl",
+      "commit": "f2f963ff043a364386888f8a6cf91646cd583e99"
+    },
+    "packages": {
+      "dir": "packages",
+      "url": "https://github.com/nim-lang/packages",
+      "commit": "7ce3aa128df1ccf6e04362eed9d1d7ddd44da570"
+    },
+    "nim-taskpools": {
+      "dir": "nim-taskpools",
+      "url": "https://github.com/status-im/nim-taskpools",
+      "commit": "d4c43137c0590cb47f893a66ca8cb027fa6c217e"
+    },
+    "threading": {
+      "dir": "threading",
+      "url": "https://github.com/nim-lang/threading",
+      "commit": "1a821f84d43bed492882228844ce684581b2d988"
+    },
+    "stb_image-Nim": {
+      "dir": "stb_image-Nim",
+      "url": "https://gitlab.com/define-private-public/stb_image-Nim.git",
+      "commit": "ba5f45286bfa9bed93d8d6b941949cd6218ec888"
     }
   },
-  "nimcfg": [
-    "############# begin Atlas config section ##########",
-    "--noNimblePath",
-    "--path:\"./nimpy\"",
-    "--path:\"./nim-taskpools\"",
-    "--path:\"./nim-zmq\"",
-    "############# end Atlas config section   ##########",
-    ""
-  ],
+  "nimcfg": "############# begin Atlas config section ##########\n--noNimblePath\n--path:\"Arraymancer/src\"\n--path:\"scinim\"\n--path:\"nimpy\"\n--path:\"nim-taskpools\"\n--path:\"nim-zmq\"\n--path:\"nimblas\"\n--path:\"nimlapack\"\n--path:\"nimcuda\"\n--path:\"nimcl\"\n--path:\"nim-clblast/src\"\n--path:\"stb_image-Nim\"\n--path:\"zip\"\n--path:\"untar/src\"\n--path:\"threading\"\n--path:\"polynumeric\"\n--path:\"opencl\"\n############# end Atlas config section   ##########\n",
   "nimbleFile": {
-    "filename": "EmptyAtlas.nimble",
-    "content": [
-      "requires \"https://github.com/yglukhov/nimpy\"",
-      "",
-      "requires \"https://github.com/status-im/nim-taskpools\"",
-      "",
-      "requires \"https://github.com/nim-lang/nim-zmq\"",
-      "",
-      ""
-    ]
+    "filename": "pyinterop_poc.nimble",
+    "content": "requires \"arraymancer\"\n\nrequires \"scinim\"\n\nrequires \"nimpy\"\n\nrequires \"taskpools\"\n\nrequires \"zmq\"\n"
   },
   "hostOS": "macosx",
   "hostCPU": "arm64",
-  "nimVersion": "2.1.1",
+  "nimVersion": "2.0.2 c4c44d10df8a14204a75c34e499def200589cb7c",
   "gccVersion": "14.1.0",
   "clangVersion": ""
 }
