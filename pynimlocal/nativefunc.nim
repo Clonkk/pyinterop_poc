@@ -2,7 +2,7 @@ import
   nimpy,
   taskpools,
   zmq,
-  std/[times, monotimes, os, strformat, strutils]
+  std/[os, strformat, strutils]
 
 const nthreads = 4
 var tp = Taskpool.new(num_threads = nthreads)
